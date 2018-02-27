@@ -1,3 +1,4 @@
+
 # LinuxServerUdacity5
 
 Public IP: 34.217.129.234
@@ -13,8 +14,11 @@ Flask venv
 
 Steps:
 Created Amazon LightSail instance -- ssh into the server per instructions.
+
 ssh port change : 22 to 2200
+
 Add custom TCP rule to allow 2200 under Networking Tab in the lightsail instance
+
 Create user grader, sudo permissions and add grader ALL=(ALL:ALL) NOPASSWD:ALL
 sudo nano /etc/sudoers : Change permission RootLogin to no
 Test if you can get to the server 2200 and then disable 22
@@ -30,4 +34,3 @@ Download new client_secrets.json and place it in the file
 
 Locate ssh key for grader user
 $ cat ~/.ssh/grader
-
