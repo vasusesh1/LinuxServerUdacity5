@@ -1,16 +1,15 @@
 
 # LinuxServerUdacity5
 
-Public IP: 34.217.129.234
+Public IP: 54.190.198.158
 SSH port : 2200
 
-Complete URL to the hosted web application : http:34.217.129.234
+Complete URL to the hosted web application : http://ec2-54-190-198-158.us-west-2.compute.amazonaws.com
 
 Third paty installations:
 PostgreSQL
 Apache 2 
 Mod_WSGI 
-Flask venv
 
 Steps:
 Created Amazon LightSail instance -- ssh into the server per instructions.
