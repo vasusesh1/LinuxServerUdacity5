@@ -32,4 +32,4 @@ Update client_secrets in Google console
 Download new client_secrets.json and place it in the file
 
 Locate ssh key for grader user
-$ cat ~/.ssh/grader
+$ cat ~/.ssh/graderkeyPair
